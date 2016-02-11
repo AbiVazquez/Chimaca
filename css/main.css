@@ -1,0 +1,65 @@
+/*imagen*/
+.imagen {
+	background-image: url("../img/grupal.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 500px;
+}
+/*boton logo y menu*/
+.buttom {
+	background-color: #FFBF00;
+	border: none;
+	padding: 15px 32px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+	margin-bottom: 4px 2px;
+	cursor: pointer;
+}
+a:hover {
+	color: white;
+}
+.logo {
+	width: 50%;
+	position: relative;
+	left: 30px;
+}
+.lista{
+	display: inline;
+	list-style: none;
+	font-family: Arial;
+	padding: 5px;
+	font-size: small;
+}
+/*imagen con texto*/
+.top {
+	margin-top: 40px;
+}
+.caja {
+	width: 230px;
+}
+p {
+	font-size: 13px;
+}
+hr{
+	width: 200px;
+}
+/*contacto*/
+.backnegro{
+	background-color: black;
+}
+.lista2 {
+	display: inline;
+	list-style: none;
+	color: white;
+	padding:6px;
+}
+.palo {
+	border-right: 1px solid white;
+}
+.center{
+	text-align: center;
+	margin-top: 30px;
+}

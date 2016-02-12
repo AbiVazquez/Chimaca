@@ -2,29 +2,36 @@
 .imagen {
 	background-image: url("../img/grupal.jpg");
 	background-repeat: no-repeat;
-	width: 100%;
-	min-height: 500px;
+	background-size: cover;
+	min-height: 650px;
 }
 /*boton logo y menu*/
 .buttom {
 	background-color: #FFBF00;
 	border: none;
-	padding: 15px 32px;
+	padding: 20px 50px;
 	color: black;
 	text-align: center;
 	text-decoration: none;
 	font-size: 16px;
 	display: inline-block;
-	margin-bottom: 4px 2px;
+	margin-bottom: 8px 4px;
 	cursor: pointer;
+	position: relative;
+}
+.nodecoration{
+	text-decoration: none;
+	color: black;
 }
 a:hover {
 	color: white;
 }
 .logo {
-	width: 50%;
+	width: 100%;
+}
+.pos{
 	position: relative;
-	left: 30px;
+	top: 30px;
 }
 .lista{
 	display: inline;
@@ -35,13 +42,18 @@ a:hover {
 }
 /*imagen con texto*/
 .top {
-	margin-top: 40px;
+	margin-top: 60px;
+}
+.img{
+	width: 200px;
 }
 .caja {
-	width: 230px;
-}
+	position: relative;
+	left: 110px;
+}	
 p {
-	font-size: 13px;
+	font-family: Fantasy;
+	font-size: 15px;
 }
 hr{
 	width: 200px;
@@ -49,17 +61,24 @@ hr{
 /*contacto*/
 .backnegro{
 	background-color: black;
+	position: relative;
+	top: 70px;
 }
 .lista2 {
 	display: inline;
+	font-family: Verdana;
 	list-style: none;
+	font-size: small;
 	color: white;
 	padding:6px;
 }
 .palo {
 	border-right: 1px solid white;
 }
-.center{
-	text-align: center;
-	margin-top: 30px;
+.azul {
+	color: #4169E1;
+}
+.posicion {
+	position: relative;
+	bottom: 30px;
 }
